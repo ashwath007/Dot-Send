@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<link rel = "icon" type = "image/png" href = "https://i.ibb.co/WGK3xzk/icon-72x72.png">
+	  <link rel = "apple-touch-icon" type = "image/png" href = "https://i.ibb.co/WGK3xzk/icon-72x72.png"/>
+    <title>Node File Uploads</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <br>
+        <h1>
+            <%=done%>
+        </h1>
+        <h1 style="color: blue;">
+            <%=allfiles %>
+
+
+        </h1>
+        <!-- <a href="<%= typeof file != 'undefined' ? file : '' %>" download>DOWNLOAD</a>
+        <img src="<%= typeof file != 'undefined' ? file : '' %>" class="responsive-img">
+        <video src="<%= typeof file != 'undefined' ? file : '' %>" type="video/mp4" autoplay> -->
+        <% allfiles.forEach((x)=>{%>
+            <ul>
+                <a href="\viFw\open - Copy.jpg" download>
+                    <%=x%>
+                </a>
+                <a href="<%=x.slice(7,)%>" download>
+                    <%=x.slice(8,)%>
+                </a>
+                <% })%>
+
+            </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+
+</html>
