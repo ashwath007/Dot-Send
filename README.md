@@ -1,5 +1,5 @@
 # Dot-Send
-Dot_Send is a anonymous file sharing app . 
+Dot_Send is a anonymous file sharing app . Start sharing safe
 <br/>
 ![](/dot.png)
 <br/>
