@@ -9,3 +9,5 @@ Anonymous file transfer is very important in todays world, even to send files fr
 <br/>
 
 Link : https://mighty-savannah-39478.herokuapp.com/
+
+Version 2 is coming...
